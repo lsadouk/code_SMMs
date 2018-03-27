@@ -53,7 +53,7 @@ You can train and test this framework by running the file ‘stereotypyMainMultS
 - Please select the number of sessions to process from the printed list: 2
 - Please select: (1)frequency domain / (2)time domain: 2
 - Please select: (1)train network from scratch / (2)train using pre-training SMM network / (3)train using pre-trained HAR network: 1
-- Please select: (1)do feature extraction / (2)do not extract features (already extracted) 2  
+- Please select: (1)do feature extraction / (2)do not extract features (already extracted) 1  
 - Please select: (0)train on all data (non-smm, rock, flap-rock, flap) / (1)train on rock data only (non-smm, rock, flap-rock): 0 
 
 The displayed result (at test time) in terms of error:
@@ -96,7 +96,7 @@ The dislayed result is:
 1) Use low and mid-level features of a CNN which was already pretrained on SMMs of subjects other than Subject 2 (e.g., records sessions of Subjects 2, 3, 4, 5, 6 of the selected study (Study 2)). The record sessions exclude flap movement activities and keep non-SMM, rock-SMM and flap-rock SMM activities.    
 2) Apply them on top of an SVM to form a framework and train the SVM via this framework using 2000 instances randomly selected from the training dataset of Subject 2 (Study 1).  
 
-NB: in the options, we choose not to label raw data and not extract features from raw data since these steps are already done for you. Indeed the corresponding files “preprocessedDataAndLabels.mat” (labeled data) and “featureVectorAndLabels.mat” (extracted features) are already created within each record session of Subject 1 in the path ‘data/Study1/URI-001-XX-XX-XX’ folder). However, you can choose to label data and extract features if desired.  
+NB: in the options, we choose to extract features from raw data. This step uses the file “preprocessedDataAndLabels.mat” (labeled data) and creates the file “featureVectorAndLabels.mat” (extracted features) for each record sessions of the selected subject(s) within the selected study. In this example, a .mat file is created within each record session of Subject 1 in the path ‘data/Study1/URI-001-XX-XX-XX’ folder). Furthermore, for future experiments, once you create the file “featureVectorAndLabels.mat”  for a subject within a study, you don't need to create it again for upcoming experiments; so you will select "(2)do not extract features" in the option menu.
 
 <b>Steps:</b> Run the code “stereotypyMainMultSessions.m” and enter values below:  
 - Please select subject ID (1-6):2
@@ -106,7 +106,7 @@ NB: in the options, we choose not to label raw data and not extract features fro
 - Please select the number of sessions to process from the printed list:2
 - Please select: (1)frequency domain / (2)time domain:1
 - Please select: (1)train network from scratch / (2)train using pre-training SMM network / (3)train using pre-trained HAR network: 2
-- Please select: (1)do feature extraction / (2)do not extract features (already extracted) 2 
+- Please select: (1)do feature extraction / (2)do not extract features (already extracted) 1 
 - Please select: (0)train on all data (non-smm, rock, flap-rock, flap) / (1)train on rock data only ((non-smm, rock, flap-rock):1  
 
 Displayed result:  
