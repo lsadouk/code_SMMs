@@ -96,7 +96,7 @@ The dislayed result is:
 <b>Goal:</b>Train a framework for the recognition of SMMs of Subject 2 (Study 1) using a CNN network already pretrained on SMMs of subjects other than Subject 2 (i.e., Subjects 1, 3, 4, 5, 6 of Study 2).  
 
 <b>Details:</b>   
-1) Use low and mid-level features of a CNN which was already pretrained on SMMs of subjects other than Subject 2 (e.g., records sessions of Subjects 2, 3, 4, 5, 6 of the selected study (Study 2)). The record sessions exclude flap movement activities and keep non-SMM, rock-SMM and flap-rock SMM activities.    
+1) Use low and mid-level features of a CNN which was already pretrained on SMMs of subjects other than Subject 2 (e.g., records sessions of Subjects 2, 3, 4, 5, 6 of the selected study (Study 1). The record sessions exclude flap movement activities and keep non-SMM, rock-SMM and flap-rock SMM activities.    
 2) Apply them on top of an SVM to form a framework and train the SVM via this framework using 2000 instances randomly selected from the training dataset of Subject 2 (Study 1).  
 
 <b>Steps:</b> Run the code “stereotypyMainMultSessions.m” and enter values below:  
@@ -122,7 +122,7 @@ Displayed result:
 
 
 <h3>Example 3: SMM detection across subjects via knowledge transfer (across domains) in frequency-domain</h3>  
-<b>Goal:</b> Train a framework for the recognition of SMMs of Subject 1 (Study 2) using a CNN network already pre-trained on human movements/activities of everyday life of typical subjects.  
+<b>Goal:</b> Train a framework for the recognition of SMMs of Subject 2 (Study 1) using a CNN network already pre-trained on human movements/activities of everyday life of typical subjects.  
 
 <b>Details:</b>
 1) Use low and mid-level features of a CNN which was already pre-trained on human activities (for human activity recognition).   
