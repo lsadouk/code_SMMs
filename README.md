@@ -136,7 +136,7 @@ Displayed result:
 - Please select the number of sessions to process from the printed list:2
 - Please select: (1)frequency domain / (2)time domain:1  
 - Please select: (1)train network from scratch / (2)train using pre-training SMM network / (3)train using pre-trained HAR network: 3
-- Please select: (1)do feature extraction / (2)do not extract features (already extracted) 2
+- Please select: (1)do feature extraction / (2)do not extract features (already extracted) 1
 - Please select: (0)train on all data (non-smm, rock, flap-rock, flap) / (1)train on rock data only ((non-smm, rock, flap-rock):1  
 
 Displayed result:  
