@@ -48,9 +48,9 @@ You can train and test this framework by running the file ‘stereotypyMainMultS
 <b>Steps:</b> Run the code “stereotypyMainMultSessions.m” and enter values below:
 
 - Please select subject ID (1-6):1
-- Please select study type (1-2):1
-	[1]:URI-001-01-18-08
-	[2]:URI-001-01-25-08
+- Please select study type (1-2):1  
+	[1]:URI-001-01-18-08  
+	[2]:URI-001-01-25-08  
 - Please select the number of sessions to process from the printed list: 2
 - Please select: (1)frequency domain / (2)time domain: 2
 - Please select: (1)train network from scratch / (2)train using pre-training SMM network / (3)train using pre-trained HAR network: 1
@@ -101,9 +101,9 @@ The dislayed result is:
 
 <b>Steps:</b> Run the code “stereotypyMainMultSessions.m” and enter values below:  
 - Please select subject ID (1-6):2
-- Please select study type (1-2):1
-    [1]:URI-002-01-18-08
-    [2]:URI-002-01-24-08
+- Please select study type (1-2):1  
+    [1]:URI-002-01-18-08  
+    [2]:URI-002-01-24-08  
 - Please select the number of sessions to process from the printed list:2
 - Please select: (1)frequency domain / (2)time domain:1
 - Please select: (1)train network from scratch / (2)train using pre-training SMM network / (3)train using pre-trained HAR network: 2
@@ -130,7 +130,7 @@ Displayed result:
 
 <b>Steps:</b> Run the code “stereotypyMainMultSessions.m” and enter values below:  
 - Please select subject ID (1-6):2
-- Please select study type (1-2):1
+- Please select study type (1-2):1  
 [1]:URI-002-01-18-08  
 [2]:URI-002-01-24-08  
 - Please select the number of sessions to process from the printed list:2
